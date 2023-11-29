@@ -1,0 +1,66 @@
+/* National */
+@font-face {
+	font-family: "National 2 Web";
+	src: url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "National 2 Web";
+	src: url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Tiempos Text */
+@font-face {
+	font-family: "Tiempos Text Web";
+	src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Tiempos Text Web";
+	src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Canela */
+@font-face {
+	font-family: "Canela";
+	src: url("https://pudding.cool/assets/fonts/canela/Canela-Bold-Web.woff") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Canela";
+	src: url("https://pudding.cool/assets/fonts/canela/Canela-Light-Web.woff") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Filson */
+@font-face {
+	font-family: "Filson Pro";
+	src: url("https://use.typekit.net/xit7xbk.css") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
