@@ -1,8 +1,7 @@
 <script>
 	export let title = "Dataviz G20";
-	export let description = "We looked at over 1,400 romance novel covers featured in Publishers Weekly from 2011 to 2023 and evaluated each cover based on its raunchiness (or level of undress), art style, and representation of racial diversity.";
-	export let url = "https://pudding.cool/2023/10/romance-covers";
-	export let keywords = "romance, literature, book, novel, love, heartbreak, diverity, race, gender, raunchiness, fabio, visual, illustration, cover, art";
+	export let description = "Rio, Capital do mundo!";
+	export let url = "https://prefeitura-rio.github.io/G20Dataviz/";
 	export let preloadFont = [];
 </script>
 
