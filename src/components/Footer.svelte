@@ -1,7 +1,7 @@
 <!-- src/components/Footer.svelte -->
 
 <script>
-  import logo from "$svg/logo_prefeitura.png"; 
+  import logo from "$svg/logo.svg"; 
 	import { activeBar } from "$stores/misc.js";
 </script>
 
@@ -24,7 +24,7 @@
 	
 	<br>
 	<br>
-	<img class="logo" src={logo} alt="Logo" />
+	{@html logo}
 	<br>
 	<br>
  </footer>
