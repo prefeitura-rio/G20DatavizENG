@@ -26,7 +26,7 @@
         <div class='img-wrapper' >
             <div class="overlay"></div>
             {#if imgsLoaded && book.id != "20241" && book.id != "194721"}
-                <img src="https://raw.githubusercontent.com/prefeitura-rio/G20Dataviz/main/static/assets/images/covers2/{book.id}.jpg" alt="{book.title}" />
+                <img src="https://raw.githubusercontent.com/prefeitura-rio/G20Dataviz/master/static/assets/images/covers2/{book.id}.jpg" alt="{book.title}" />
             {/if}
         </div>
         <!-- <div class="marker">{book.year}</div> -->
