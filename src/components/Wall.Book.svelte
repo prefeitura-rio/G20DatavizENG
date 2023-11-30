@@ -41,7 +41,14 @@
 <style>
 
     
- 
+ #book_19471, #book_19671, #book_196721{
+    width: 20rem;
+    margin-left: 5rem;
+ }
+ #book_19991{
+    width: 22rem;
+    margin-left: 5rem;
+ }
     .book {
         margin: 0;
         display: flex;

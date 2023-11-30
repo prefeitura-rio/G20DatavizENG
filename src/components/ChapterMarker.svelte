@@ -46,11 +46,12 @@
 
 <nav>
     <div class="top-nav" class:loading={loading}>
-        <div class="logo" class:isHidden={$readingListVisible}>
-            <a href="https://www.dados.rio/" aria-label="The Pudding" target="_self">
-                {@html logo}
+        <button class="listBtn" aria-label="open reading list">
+            <a href="https://www.g20.rio/">
+                <img src="assets/images/g20_logo_pt.png">
             </a>
-        </div>
+         </button>
+
         <!-- <div class="sect-btns">
             {#each sections as section, i}
                 {@const active = $activeSection == section ? "active" : ""}
@@ -66,11 +67,11 @@
                 </div>
             {/each}
         </div> -->
-        <button class="listBtn" aria-label="open reading list">
-            <a href="https://www.g20.rio/">
-                <img src="assets/images/g20_logo_pt.png">
+        <div class="logo" class:isHidden={$readingListVisible}>
+            <a href="https://www.dados.rio/" aria-label="The Pudding" target="_self">
+                {@html logo}
             </a>
-         </button>
+        </div>
          
     </div>
     <!-- <div class="slider-wrapper">
@@ -163,12 +164,13 @@
 		flex-direction: row;
     }
     .logo {
+        top:0.75rem;
+        right: 14rem;
         width: 1px !important;
         transform: scale(1);
         transition: 0.25s linear;
         position: absolute;
-        left: 0.75rem;
-        top: 0.75rem;
+        
     }
     .logo:hover {
         transform: scale(1.10);
@@ -269,7 +271,8 @@
     }
     .listBtn {
         position: absolute;
-        right: 4rem;
+        left: 0.75rem;
+        top: 0.5rem;
         /* top: 0.75rem; */
         background: transparent;
         z-index: 1000;
@@ -327,10 +330,10 @@
 		text-align: left;
 		padding: 0 0 0 0.5rem
 	}
-    :global(.listBtn.highlight) {
+    /* :global(.listBtn.highlight) {
         background: rgba(255, 255, 255, 0.75) !important;
         animation: pulse-animation 2s infinite 1s !important;
-    }
+    } */
     @keyframes pulse-animation {
         0% {
             box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.75);

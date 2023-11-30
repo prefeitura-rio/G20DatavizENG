@@ -82,7 +82,7 @@
 		pointer-events: none;
 	}
 	
-	/* .step:last-of-type p::before {
+	.step:last-of-type p::before {
 		content: " ";
 		position:relative;
 		width: 1rem;
@@ -94,7 +94,7 @@
 		background-size: 1rem 1rem;
         background-repeat: no-repeat;
         background-position: center;
-	} */
+	}
 	.step .text_titulo {
 		font-family: var(--serif);
 		font-weight: 500;

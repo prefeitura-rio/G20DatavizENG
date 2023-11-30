@@ -335,6 +335,7 @@ const deviceType = () => {
 		transition: 1s ease-in-out;
 		overflow-x: hidden;
 		width: 100%;
+		overflow-y: hidden;
 	}
 
 	.yearChunk {
