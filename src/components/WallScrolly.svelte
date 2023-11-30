@@ -25,7 +25,7 @@
 </script>
 
 <section id="scrolly">
-	<div class="spacer" />
+	
 	<div class="sticky">
         <Wall data={data} value={value} section={section} copy={copy} xShiftSection={xShiftSection}/>
     </div>
@@ -34,7 +34,12 @@
             {#each copy as text, i}
                 <div class="step">
 									{#if text.text}
-									<p>{@html text.text}</p>
+									<div class="text_titulo">
+										{#if text.titulo}
+										<div class="titulo">{text.titulo}</div>
+										{/if}
+										{text.text}
+									</div>
 									{/if}
 										{#if text.credits}
 										<!-- <p class="credits">{@html text.credits}</p> -->
@@ -48,24 +53,27 @@
 </section>
 
 <style>
+
+	.titulo{
+		font-weight: bold;
+		font-size: 1.1rem;
+		padding-bottom: 1.1rem;
+	}
 	.credits{
 		font-size: 11px;
 	}
 .sticky {
     position: sticky;
-    top: 6rem;
+    top: 14rem;
     transition: all 1s;
    
     z-index: 1;
     overflow-x: hidden;
     pointer-events: none;
-    max-width: 1200px; /* Set maximum width */
+    max-width: 1600px; /* Set maximum width */
     margin: 0 auto; /* Center align the element */
 }
 
-	.spacer {
-		height: 10vh;
-	}
 	.step {
 		height: 80vh;
 		text-align: center;
@@ -74,15 +82,7 @@
         margin: 0 auto;
 		pointer-events: none;
 	}
-	.step:last-of-type p {
-		position: relative;
-		text-align: center;
-		font-family: var(--sans-display);
-		font-weight: 900;
-		font-size: 15px !important;
-		display: flex;
-		justify-content: center;
-	}
+	
 	/* .step:last-of-type p::before {
 		content: " ";
 		position:relative;
@@ -96,20 +96,20 @@
         background-repeat: no-repeat;
         background-position: center;
 	} */
-	.step p {
+	.step .text_titulo {
 		font-family: var(--serif);
 		font-weight: 500;
         text-align: left;
         padding: 2rem;
-        background: var(--color-white);
+        background: var(--color-white); 
 		pointer-events: auto;
 	}
-	:global(.step p .bold-year) {
+	:global(.step .text_titulo .bold-year) {
 		font-weight: 600;
 		font-family: var(--sans-display);
 		letter-spacing: -0.5px;
 	}
-	:global(.step p a) {
+	:global(.step .text_titulo a) {
 		color: var(--color-gray-800);
 		background-repeat: no-repeat;
         transition: background-position .08s ease-out;
@@ -117,24 +117,29 @@
 		border-bottom: none;
 		pointer-events: auto;
 	}
-	:global(#raunchiness .step p a) {
+	:global(#raunchiness .step .text_titulo a) {
 		background-image: linear-gradient(180deg,transparent 0,var(--romance-blue-light) 0);
 	}
-	:global(#illustration .step p a) {
+	:global(#illustration .step .text_titulo a) {
 		background-image: linear-gradient(180deg,transparent 0,var(--romance-yellow-light) 0);
 	}
-	:global(#race .step p a) {
+	:global(#race .step .text_titulo a) {
 		background-image: linear-gradient(180deg,transparent 0,var(--romance-teal-light) 0);
 	}
-	:global(.step p a:hover) {
+	:global(.step .text_titulo a:hover) {
 		background-position: 0 0rem;
 	}
 	@media only screen and (min-width: 600px) {
-        .step:last-of-type p {
-			font-size: var(--14px);
-		}
-		.step:last-of-type p::before {
+      
+		.step:last-of-type .text_titulo::before {
 			top:0.1rem;
 		}
 	}
+
+	@media only screen and (max-width: 480px){
+		.sticky {
+    top: 18rem;
+    }
+	}
+	
  </style>

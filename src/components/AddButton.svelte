@@ -54,9 +54,9 @@
         height: 1.5rem;
         width: 1.5rem;
         pointer-events: auto;
-        background-color: var(--color-gray-800);
-        border: 2px solid white;
-        box-shadow: 0.25rem 0 0.5rem  rgba(0,0,0,0.125);
+        background-color: white;
+        /* border: 2px solid white; */
+        /* box-shadow: 0.25rem 0 0.5rem  rgba(0,0,0,0.125); */
         transition: 0.25s transform linear, 0.5s background-color linear;
         z-index: 1;
         pointer-events: auto;
@@ -72,12 +72,13 @@
         background-size: 0.75rem 0.75rem;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: var(--romance-pink-light);
+        /* background-color: var(--romance-pink-light); */
         transition: 0.5s background-color linear;
     }
     :global(.add.book_noList) {
-        background-image: url($svg/book-open.svg);
-        background-size: 0.75rem 0.75rem;
+        /* background-image: url($svg/info.svg); */
+        background-image: url($svg/info-solid.svg);
+        /* background-size: 0.75rem 0.75rem; */
         background-repeat: no-repeat;
         background-position: center;
     }

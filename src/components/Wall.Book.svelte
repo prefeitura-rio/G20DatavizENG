@@ -55,7 +55,7 @@
     }
     .img-wrapper {
         background-size: cover;
-        width:24rem !important;
+        width:30rem !important;
         /* background-repeat: no-repeat; */
         /* box-shadow: -3px 3px 2px -2px  rgba(0, 0, 0, 0.125), inset -1px 1px 2px rgba(255, 255, 255, 0.5); */
         /* transform: translate(0,0,0) perspective(8rem) rotateX(2deg); */
@@ -127,4 +127,10 @@
             transform: scale(1.25);
         }
 	}
+    @media only screen and (max-width: 480px){
+        .img-wrapper {
+        background-size: cover;
+        width:23rem !important;
+        }
+    }
 </style>

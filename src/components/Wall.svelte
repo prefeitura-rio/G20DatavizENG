@@ -1,5 +1,5 @@
 <script>
-   import { groups } from "d3-array";
+	import { groups } from "d3-array";
 	import { select } from "d3-selection";
 	import {
 		activeSection,
@@ -44,20 +44,44 @@
 		}
 	}
 
-	const deviceType = () => {
+	
+
+	let scrollaDe3em3OsAnos = [
+		"19081",
+		"19221",
+		"19281",
+		"19421",
+		"19471",
+		"19501",
+		"19551",
+		"19671",
+		"19921",
+		"19991",
+		"20071",
+		"20121",
+		"20131",
+		"20141",
+		"20161",
+		"20191",
+		"20231",
+		"20241"
+	];
+
+const deviceType = () => {
 		const ua = navigator.userAgent;
+		const isLandscape = window.matchMedia("(orientation: landscape)").matches;
+
 		if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-			return "tablet";
+			return isLandscape ? "tablet-landscape" : "tablet-portrait";
 		} else if (
 			/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
 				ua
 			)
 		) {
-			return "mobile";
+			return isLandscape ? "mobile-landscape" : "mobile-portrait";
 		}
 		return "desktop";
 	};
-    let scrollaDe3em3OsAnos = ["19081","19221","19281","19421","19471","19501","19551","19671","19921","19991","20071","20121","20131","20141","20161","20191","20231","20241"]
 
 	function shiftX(value) {
 		if (copy[value] !== undefined) {
@@ -69,41 +93,68 @@
 			} else if (
 				copy[value] !== 0 &&
 				select(`#${section} #book_${copy[value].scrollToId}`).node() !== null
-                
-			) { console.log("dispositivo ", deviceType() )
+			) {
+				console.log("dispositivo ", deviceType());
 
-                if (deviceType() == "tablet"){
-                    const sel = select(`#${section} #book_${copy[value].scrollToId}`)
-					.node()
-					.getBoundingClientRect().x;
-				if ($activeSection == "raunchiness") {
-					const padding = 330;
-					const val = $xShiftRaunch + sel - margins - padding;
-					slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
-					xShiftRaunch.set(val);
+				if (deviceType() == "tablet-portrait") {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = 330;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
+				} else if (deviceType() == "tablet-landscape") {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = 330;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
+				} 
+
+				if (deviceType() == "mobile-portrait") {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = 380;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
+				} else if (deviceType() == "mobile-landscape") {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = 550;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
 				}
-                }else if (deviceType() == "desktop" && scrollaDe3em3OsAnos.includes(copy[value].scrollToId)){
-                    const sel = select(`#${section} #book_${copy[value].scrollToId}`)
-					.node()
-					.getBoundingClientRect().x;
-				if ($activeSection == "raunchiness") {
-					const padding = 225;
-					const val = $xShiftRaunch + sel - margins - padding;
-					slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
-					xShiftRaunch.set(val);
-				}
-                }else if (deviceType() == "mobile"){
-                    const sel = select(`#${section} #book_${copy[value].scrollToId}`)
-					.node()
-					.getBoundingClientRect().x;
-				if ($activeSection == "raunchiness") {
-					const padding = 380;
-					const val = $xShiftRaunch + sel - margins - padding;
-					slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
-					xShiftRaunch.set(val);
-				}
-                
-            }
+
+				if (
+					deviceType() == "desktop" &&
+					scrollaDe3em3OsAnos.includes(copy[value].scrollToId)
+				) {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = 20;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
+				} 
+			
 			}
 			if (
 				value == copy.length - 1 &&
@@ -132,7 +183,7 @@
 			});
 		}
 
-    	function setBookCols(remainder, chunkLength, bookRows) {
+		function setBookCols(remainder, chunkLength, bookRows) {
 			if (wallH > 550) {
 				const val =
 					remainder <= 2 && remainder !== 0
@@ -223,38 +274,35 @@
 		"1940.1",
 		"1940.2"
 	];
-
 </script>
 
 <svelte:window bind:innerHeight={h} bind:innerWidth={w} />
 
-
 <section id="wall-{section}" class="wall">
-    <div
-    class="overflow-wrap"
-    style="transform:translate3d(-{xShiftSection}px,0,0); transition: {slideSpeed}s ease-in-out;"
->
-    {#each yearGroups as year, i}
-        {#if !excludedYears.includes(year[0])}
-            <div class="year-wrapper" bind:clientHeight={wallH}>
-                {#if wallH !== undefined}
-                    <div class="yearChunk" id="chunk-{year[0]}" style="width:23rem">
-                        <div class="books">
-                            {#each year[1] as book, i}
-                                <Book {book} index={i} {wallH} {bookRows} {imgsLoaded} />
-                            {/each}
-                        </div>
-                    </div>
-                {/if}
-            </div>
-        {/if}
-    {/each}
-</div>
+	<div
+		class="overflow-wrap"
+		style="transform:translate3d(-{xShiftSection}px,0,0); transition: {slideSpeed}s ease-in-out;"
+	>
+		{#each yearGroups as year, i}
+			{#if !excludedYears.includes(year[0])}
+				<div class="year-wrapper" bind:clientHeight={wallH}>
+					{#if wallH !== undefined}
+						<div class="yearChunk" id="chunk-{year[0]}">
+							<div class="books">
+								{#each year[1] as book, i}
+									<Book {book} index={i} {wallH} {bookRows} {imgsLoaded} />
+								{/each}
+							</div>
+						</div>
+					{/if}
+				</div>
+			{/if}
+		{/each}
+	</div>
 </section>
 
 <style>
-   
-   .overflow-wrap {
+	.overflow-wrap {
 		display: flex;
 		flex-direction: row;
 		/* padding: 0 5rem; */
@@ -275,7 +323,7 @@
 	}
 
 	.yearChunk {
-		/* margin: 0 1rem 0 0; */
+		width: 32rem;
 	}
 
 	.year-wrapper {
@@ -284,7 +332,7 @@
 		pointer-events: none;
 	}
 
-    .books {
+	.books {
 		height: auto;
 		position: relative;
 		z-index: 999;
@@ -295,5 +343,9 @@
 		transform: translate3d(0, 0, 0);
 		-webkit-transform: translate3d(0, 0, 0);
 	}
-
+	@media only screen and (max-width: 480px) {
+		.yearChunk {
+			width: 23rem !important;
+		}
+	}
 </style>
