@@ -45,16 +45,16 @@
 <style>
     .add {
         position: absolute;
-        bottom: -0.75rem;
-        right: 0rem;
+        bottom: 0.5rem;
+        right: 0.5rem;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 1.5rem;
-        width: 1.5rem;
+        /* height: 1rem;
+        width: 0.5rem; */
         pointer-events: auto;
-        background-color: white;
+        /* background-color: white; */
         /* border: 2px solid white; */
         /* box-shadow: 0.25rem 0 0.5rem  rgba(0,0,0,0.125); */
         transition: 0.25s transform linear, 0.5s background-color linear;
@@ -63,7 +63,7 @@
         transform: translateZ(0px);
     }
     .add:hover {
-        transform: translateZ(0px) scale(1.5);
+        transform: translateZ(0px) scale(1.2);
         transform-style: preserve-3d;
         z-index: 5;
     }
@@ -76,8 +76,8 @@
         transition: 0.5s background-color linear;
     }
     :global(.add.book_noList) {
-        /* background-image: url($svg/info.svg); */
-        background-image: url($svg/info-solid.svg);
+        background-image: url($svg/info_logo.svg);
+        /* background-image: url($svg/info-solid.svg); */
         /* background-size: 0.75rem 0.75rem; */
         background-repeat: no-repeat;
         background-position: center;

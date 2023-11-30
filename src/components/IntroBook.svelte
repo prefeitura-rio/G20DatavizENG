@@ -85,9 +85,9 @@
 					<div class="book-cover">
 						<div class="img-wrapper">
 							<img 
-								srcset="assets/images/rj_cover.jpg 600w, assets/images/rj_cover.jpg 900w" 
+								srcset="assets/images/capa_PT.png 600w, assets/images/capa_PT.png 900w" 
 								sizes="(max-width: 600px) 600px, 900px"
-								src="assets/images/rj_cover.jpg"
+								src="assets/images/capa_PT.png"
 								alt="An illustrated book cover of an Asian American woman with long brown hair and red lipstick. She has one hand on her hip and the other on her chin in a curious pose. There are colorful books flying around her on a blue background."
 							/>
 						</div>
@@ -327,7 +327,7 @@
 	.book-cover-back-indent p{
 		font-family: var(--serif);
 		font-weight: 500;
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
 		text-align: left;
@@ -367,7 +367,7 @@
 		overflow:hidden;
 	}
 	.book-page p{
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
 		padding: 0 0 1rem 0;

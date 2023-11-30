@@ -56,7 +56,7 @@
 
 	.titulo{
 		font-weight: bold;
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		padding-bottom: 1.1rem;
 	}
 	.credits{
@@ -66,7 +66,6 @@
     position: sticky;
     top: 14rem;
     transition: all 1s;
-   
     z-index: 1;
     overflow-x: hidden;
     pointer-events: none;
@@ -139,6 +138,11 @@
 	@media only screen and (max-width: 480px){
 		.sticky {
     top: 18rem;
+    }
+	}
+	@media only screen and (min-width: 480px) and (max-width: 1500px ){
+		.sticky {
+    top: 6rem;
     }
 	}
 	

@@ -6,6 +6,7 @@
     import {select} from "d3-selection";
     import Range from "$components/helpers/Range.svelte";
     import logo from "$svg/logo.svg";
+    import logo_g20 from "$img/pointer.png";
 
     const sections = ["intro", "raunchiness", "illustration", "race", "methods"];
 	let sliderValRaunch;
@@ -65,23 +66,12 @@
                 </div>
             {/each}
         </div> -->
-        <!-- <button 
-            on:click={handleListToggle}
-            class="listBtn"
-            aria-label="open reading list">
-                {#if $readingList.length > 0}
-                    <p class="count"
-                    in:fly={{ y: 20, duration: 200}}
-                    out:fade={{ duration: 200}}>
-                        {$readingList.length}
-                    </p>
-                {/if}
-                {#if $readingListVisible == false}
-                    <div class="book_noList_black"></div>
-                {:else}
-                    <div class="book_inList_black"></div>
-                {/if}
-        </button> -->
+        <button class="listBtn" aria-label="open reading list">
+            <a href="https://www.g20.rio/">
+                <img src="assets/images/g20_logo_pt.png">
+            </a>
+         </button>
+         
     </div>
     <!-- <div class="slider-wrapper">
         {#if $sliderVisible}
@@ -279,13 +269,13 @@
     }
     .listBtn {
         position: absolute;
-        right: 0.75rem;
-        top: 0.75rem;
+        right: 4rem;
+        /* top: 0.75rem; */
         background: transparent;
         z-index: 1000;
         border-radius: 50%;
-        height: 2rem;
-        width: 2rem;
+        /* height: 5rem; */
+        width: 5rem;
         transition: 0.25s linear;
         transform: scale(1);
     }

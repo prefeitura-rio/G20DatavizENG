@@ -44,12 +44,55 @@
         <div class="icon-loading"></div>
         {:else}
         <!-- <p style="white-space:nowrap">Ver mais</p> -->
-        <div class="icon-scroll"></div>
+        <div class="scroll-down-dude"></div>
         {/if}
     </div>
 </section>
 
 <style>
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    border-bottom: 4px solid black; /* Updated from $strokeWidth and $strokeColor */
+    border-right: 4px solid black; /* Updated from $strokeWidth and $strokeColor */
+}
+
+.scroll-down-dude:before {
+    animation: down-arrow-before 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+.scroll-down-dude:after {
+    animation: down-arrow-after 2.6s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+@keyframes down-arrow-before {
+    50% {
+        transform: rotate(45deg) translate(70%, 70%);
+    }
+    100% {
+        transform: rotate(45deg) translate(70%, 70%);
+    }
+}
+
+@keyframes down-arrow-after {
+    50% {
+        transform: rotate(45deg) translate(110%, 110%);
+        opacity: 0;
+    }
+    51% {
+        transform: rotate(45deg) translate(-130%, -130%);
+    }
+    100% {
+        transform: rotate(45deg) translate(-70%, -70%);
+        opacity: 1;
+    }
+}
+
     #intro {
         height: 200vh;
         width: 100%;

@@ -142,13 +142,28 @@ const deviceType = () => {
 
 				if (
 					deviceType() == "desktop" &&
-					scrollaDe3em3OsAnos.includes(copy[value].scrollToId)
+					scrollaDe3em3OsAnos.includes(copy[value].scrollToId) && window.matchMedia('(min-width: 1500px)').matches
 				) {
 					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
 						.node()
 						.getBoundingClientRect().x;
 					if ($activeSection == "raunchiness") {
-						const padding = 20;
+						const padding = -20;
+						const val = $xShiftRaunch + sel - margins - padding;
+						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
+						xShiftRaunch.set(val);
+					}
+				} 
+				
+				if (
+					deviceType() == "desktop" 
+					 && window.matchMedia('(max-width: 1499px)').matches
+				) {
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
+						.node()
+						.getBoundingClientRect().x;
+					if ($activeSection == "raunchiness") {
+						const padding = -20;
 						const val = $xShiftRaunch + sel - margins - padding;
 						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
 						xShiftRaunch.set(val);
@@ -323,7 +338,7 @@ const deviceType = () => {
 	}
 
 	.yearChunk {
-		width: 32rem;
+		width: 29rem;
 	}
 
 	.year-wrapper {
