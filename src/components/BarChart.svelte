@@ -36,7 +36,7 @@
     "1942","1947","1950","1955",
     "1967","1992","1999",
     "2007", "2012","2013",
-    "2014","2016","2019",
+    "2014","2016","2017","2019",
     "2023", "2024" ].includes(year));
     $: numItems = filteredGroupedData.length;
     $: styleVar = `--num-items: ${numItems};`;
@@ -57,7 +57,11 @@
                     {#if pos == "overlay"}
                         <p class="count"
                             in:fly={{ y: 20, duration: 500 }} out:fade>
-                            {year[0]}
+                            {#if year[0] == "2017"}
+                              {parseInt(year[0])  - 1}
+                              {:else}
+                              {year[0]}
+                            {/if}
                         </p>
                     {/if}
                     <span class="horizontal-line"></span>
