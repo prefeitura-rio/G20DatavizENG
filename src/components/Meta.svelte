@@ -2,6 +2,8 @@
 	export let title = "Dataviz G20";
 	export let description = "Rio, Capital do mundo!";
 	export let url = "https://prefeitura-rio.github.io/G20Dataviz/";
+	export let keywords = "g20, rio de janeiro";
+
 	export let preloadFont = [];
 </script>
 
