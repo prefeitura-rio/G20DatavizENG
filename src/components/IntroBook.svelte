@@ -327,12 +327,14 @@
 	.book-cover-back-indent p{
 		font-family: var(--serif);
 		font-weight: 500;
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
-		text-align: left;
-		padding: 0 0 1rem 0;
+		text-align: justify;
+		padding: 2rem 0.5rem 1rem 0;
+		text-justify: center !important;
 	}
+
 
 	:global(.initial-cap) {
 		float: left;
@@ -367,11 +369,12 @@
 		overflow:hidden;
 	}
 	.book-page p{
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
-		padding: 0 0 1rem 0;
+		padding: 2rem 0.5rem 1rem 0;
 		font-family: var(--serif);
+		text-align: justify;
 	}
 
 /* = Book Back

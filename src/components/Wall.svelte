@@ -363,7 +363,7 @@ const deviceType = () => {
 	}
 	@media only screen and (max-width: 480px) {
 		.yearChunk {
-			width: 23rem !important;
+			width: 26rem !important;
 		}
 	}
 </style>
