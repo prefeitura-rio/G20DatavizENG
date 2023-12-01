@@ -1,6 +1,6 @@
 <script>
-	export let title = "Rio Capital do Mundo";
-	export let description = "Rio, Capital do mundo!";
+	export let title = "Rio Capital of the World";
+	export let description = "Rio Capital of the World";
 	export let url = "https://prefeitura-rio.github.io/G20Dataviz/";
 	export let keywords = "g20, rio de janeiro";
 
