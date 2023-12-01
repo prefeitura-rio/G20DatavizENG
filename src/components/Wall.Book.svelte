@@ -137,7 +137,8 @@
     @media only screen and (max-width: 480px){
         .img-wrapper {
         background-size: cover;
-        width:23rem !important;
+        width:26rem !important;
         }
     }
+    
 </style>

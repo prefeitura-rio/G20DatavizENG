@@ -77,7 +77,7 @@
 <style>
     .horizontal-line {
     position: absolute;
-    height: 1px; /* or the thickness you desire */
+    height: 2px; /* or the thickness you desire */
     width: 100%; /* this ensures it spans the entire width of the ball */
     background-color: #a9a9a9; /* or any color you prefer */
     top: 50%; /* centers the line vertically */
@@ -196,14 +196,20 @@
         }
 	}
     @media only screen and (max-width: 500px) {
-        .label.right  {
-            top: 0.1rem;
-        }
-        .label.left  {
-            top: 0.1rem;
-        }
+        .label.left {
+        left:2rem;
+        top:-1.5rem;
+        font-weight: bold;
+    }
+    .label.right {
+        top:-1.5rem;
+        right:2rem;
+        font-weight: bold;
+    }
         .chart-wrapper {
-            border-bottom: 0px
+            border-bottom: 0px;
+            width:90%;
+            padding-bottom: 3rem;
         
     }
 }

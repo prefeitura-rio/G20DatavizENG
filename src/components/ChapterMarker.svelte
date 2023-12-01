@@ -104,7 +104,7 @@
         padding: 0;
         display: flex;
         flex-direction: column;
-        z-index: 1000;
+        /* z-index: 1000; */
         height: 6rem;
     }
     .loading {
@@ -275,7 +275,7 @@
         top: 0.5rem;
         /* top: 0.75rem; */
         background: transparent;
-        z-index: 1000;
+        /* z-index: 1000; */
         border-radius: 50%;
         /* height: 5rem; */
         width: 5rem;
@@ -355,4 +355,13 @@
             min-width: 15rem;
         }
 	}
+    @media only screen and (min-width: 400px) and (max-width: 540px){
+.logo{
+    top:0.8rem;
+    right: 12.5rem;
+}
+.listBtn{
+    left: -1rem;
+}
+    }
 </style>

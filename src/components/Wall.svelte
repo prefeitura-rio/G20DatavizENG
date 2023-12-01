@@ -124,7 +124,7 @@ const deviceType = () => {
 						.node()
 						.getBoundingClientRect().x;
 					if ($activeSection == "raunchiness") {
-						const padding = 380;
+						const padding = 430;
 						const val = $xShiftRaunch + sel - margins - padding;
 						slideSpeed = Math.max(Math.abs(sel) / 750, 1.5);
 						xShiftRaunch.set(val);
