@@ -40,7 +40,7 @@
 	<div class="spacer" />
     <div class="icon-wrapper" class:isVisible={isVisible}>
         {#if loading == true}
-        <p>Carregando</p>
+        <p>Loading...</p>
         <div class="icon-loading"></div>
         {:else}
         <!-- <p style="white-space:nowrap">Ver mais</p> -->

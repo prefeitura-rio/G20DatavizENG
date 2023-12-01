@@ -253,6 +253,7 @@ const deviceType = () => {
 	$: $activeSection, loadImgs($activeSection, section);
 
 	const excludedYears = [
+		"",
 		"1929",
 		"1930",
 		"1931",
