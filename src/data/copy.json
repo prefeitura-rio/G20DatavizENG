@@ -55,13 +55,13 @@
   "page1_else": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>W</span>hen contemplating the past, it becomes clear why Rio de Janeiro was chosen as the venue for the main international economic cooperation forum, the G20. <br><br> As a city that played a leading role in major events, Rio, on several occasions, took on the role of a historical epicenter, influencing the course of global events over the centuries. Every corner tells a story, and each event contributed to the construction of the world we live in today."
+      "value": "<span class=initial-cap>W</span>hen looking at the past, it becomes evident why Rio de Janeiro was chosen as the venue for the G20, the main international economic cooperation forum. As a stage for events of great magnitude, the city has played the role of a historical epicenter multiple times, shaping global events throughout the centuries."
     }
   ],
   "page2_else": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>I</span>n this timeline, you will get to know the main meetings and events, and the history of crucial decisions that unfolded on its streets. Together, we will embark on a journey that reveals Rio de Janeiro as a convergence point where local history intertwines with global destinies. <br><br> The Data Office of the City of Rio de Janeiro in partnership with the G20 Committee invites you to explore this timeline, showing how Rio has always been the capital of the world."
+      "value": "<span class=initial-cap>T</span>he Data Office of the City of Rio de Janeiro, in partnership with the G20 Committee, invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
 

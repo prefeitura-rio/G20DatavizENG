@@ -327,14 +327,12 @@
 	.book-cover-back-indent p{
 		font-family: var(--serif);
 		font-weight: 500;
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
-		text-align: justify;
-		padding: 2rem 0.5rem 1rem 0;
-		text-justify: center !important;
+		text-align: left;
+		padding: 0 0 1rem 0;
 	}
-
 
 	:global(.initial-cap) {
 		float: left;
@@ -369,12 +367,11 @@
 		overflow:hidden;
 	}
 	.book-page p{
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 1.65;
 		margin: 0 0 1rem 0;
-		padding: 2rem 0.5rem 1rem 0;
+		padding: 0 0 1rem 0;
 		font-family: var(--serif);
-		text-align: justify;
 	}
 
 /* = Book Back
@@ -470,5 +467,19 @@
 		.book-cover .byline {
 			font-size: var(--44px);
 		}
+	}
+	@media only screen and (max-width: 500px) {
+		.book-cover-back-indent p{
+			font-size: 18px !important;
+			text-align: justify;
+			margin: 2rem 0.5rem 1rem 0.5rem;
+		}
+		.book-page p{
+		font-size: 18px !important;
+		text-align: justify;
+		line-height: 1.65;
+		margin: 2rem 0 1rem 0;
+		font-family: var(--serif);
+	}
 	}
 </style>
