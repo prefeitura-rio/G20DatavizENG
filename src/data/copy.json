@@ -1,101 +1,69 @@
 {
-  "title": "Rio Capital do Mundo",
+  "title": "Dataviz G20",
   "titleBreaks": "What does <br> a happily <br> ever after <br> look like?",
+
   "page1_900": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>A</span>o contemplar o passado, torna-se claro por que o Rio de Janeiro foi escolhido como sede do principal fórum de cooperação econômica internacional, o G20. <br><br> Como cidade protagonista de grandes eventos, o Rio, em várias ocasiões, assumiu o papel de epicentro histórico, influenciando o curso de eventos globais nos últimos séculos. Cada esquina conta uma história, e cada evento contribuiu para a construção do Mundo em que vivemos hoje."
+      "value": "<span class=initial-cap>W</span>hen contemplating the past, it becomes clear why Rio de Janeiro was chosen as the venue for the main international economic cooperation forum, the G20. <br><br> As a city that played a leading role in major events, Rio, on several occasions, took on the role of a historical epicenter, influencing the course of global events over the centuries. Every corner tells a story, and each event contributed to the construction of the world we live in today."
     }
   ],
   "page2_900": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>N</span>esta linha do tempo você conhecerá os principais encontros e eventos, e a história de decisões cruciais que se desenrolaram em suas ruas. Juntos, embarcaremos em uma jornada que revela o Rio de Janeiro como um ponto de convergência onde a história local se entrelaça com os destinos globais.<br><br> O Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro em parceria com o Comitê do G20 convidam você a percorrer esta linha do tempo, que mostra como o Rio sempre foi a capital do Mundo."
+      "value": "<span class=initial-cap>I</span>n this timeline, you will get to know the main meetings and events, and the history of crucial decisions that unfolded on its streets. Together, we will embark on a journey that reveals Rio de Janeiro as a convergence point where local history intertwines with global destinies. <br><br> The Data Office of the City of Rio de Janeiro in partnership with the G20 Committee invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
   "page1_750": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>A</span>o contemplar o passado, torna-se claro por que o Rio de Janeiro foi escolhido como sede do principal fórum de cooperação econômica internacional, o G20. <br><br> Como cidade protagonista de grandes eventos, o Rio, em várias ocasiões, assumiu o papel de epicentro histórico, influenciando o curso de eventos globais nos últimos séculos. Cada esquina conta uma história, e cada evento contribuiu para a construção do Mundo em que vivemos hoje."
+      "value": "<span class=initial-cap>W</span>hen contemplating the past, it becomes clear why Rio de Janeiro was chosen as the venue for the main international economic cooperation forum, the G20. <br><br> As a city that played a leading role in major events, Rio, on several occasions, took on the role of a historical epicenter, influencing the course of global events over the centuries. Every corner tells a story, and each event contributed to the construction of the world we live in today."
     }
   ],
   "page2_750": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>N</span>esta linha do tempo você conhecerá os principais encontros e eventos, e a história de decisões cruciais que se desenrolaram em suas ruas. Juntos, embarcaremos em uma jornada que revela o Rio de Janeiro como um ponto de convergência onde a história local se entrelaça com os destinos globais.<br><br> O Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro em parceria com o Comitê do G20 convidam você a percorrer esta linha do tempo, que mostra como o Rio sempre foi a capital do Mundo."
+      "value": "<span class=initial-cap>I</span>n this timeline, you will get to know the main meetings and events, and the history of crucial decisions that unfolded on its streets. Together, we will embark on a journey that reveals Rio de Janeiro as a convergence point where local history intertwines with global destinies. <br><br> The Data Office of the City of Rio de Janeiro in partnership with the G20 Committee invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
-  "lookBackOverflow_750": [
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>I</span>"
-    },
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>J</span>"
-    }
-  ],
+ 
   "page1_650": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>A</span>o contemplar o passado, torna-se claro por que o Rio de Janeiro foi escolhido como sede do principal fórum de cooperação econômica internacional, o G20. <br><br> Como cidade protagonista de grandes eventos, o Rio, em várias ocasiões, assumiu o papel de epicentro histórico, influenciando o curso de eventos globais nos últimos séculos. Cada esquina conta uma história, e cada evento contribuiu para a construção do Mundo em que vivemos hoje."
+      "value": "<span class=initial-cap>W</span>hen contemplating the past, it becomes clear why Rio de Janeiro was chosen as the venue for the main international economic cooperation forum, the G20. <br><br> As a city that played a leading role in major events, Rio, on several occasions, took on the role of a historical epicenter, influencing the course of global events over the centuries. Every corner tells a story, and each event contributed to the construction of the world we live in today."
     }
   ],
   "page2_650": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>N</span>esta linha do tempo você conhecerá os principais encontros e eventos, e a história de decisões cruciais que se desenrolaram em suas ruas. Juntos, embarcaremos em uma jornada que revela o Rio de Janeiro como um ponto de convergência onde a história local se entrelaça com os destinos globais. <br><br>O Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro em parceria com o Comitê do G20 convidam você a percorrer esta linha do tempo, que mostra como o Rio sempre foi a capital do Mundo."
+      "value": "<span class=initial-cap>I</span>n this timeline, you will get to know the main meetings and events, and the history of crucial decisions that unfolded on its streets. Together, we will embark on a journey that reveals Rio de Janeiro as a convergence point where local history intertwines with global destinies. <br><br> The Data Office of the City of Rio de Janeiro in partnership with the G20 Committee invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
-  "lookBackOverflow_650": [
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>M</span>"
-    },
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>N</span>"
-    }
-  ],
+  
   "page1_600": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>A</span>o contemplar o passado, torna-se claro por que o Rio de Janeiro foi escolhido como sede do principal fórum de cooperação econômica internacional, o G20. <br><br> Como cidade protagonista de grandes eventos, o Rio, em várias ocasiões, assumiu o papel de epicentro histórico, influenciando o curso de eventos globais nos últimos séculos. Cada esquina conta uma história, e cada evento contribuiu para a construção do Mundo em que vivemos hoje."
+      "value": "<span class=initial-cap>W</span>hen contemplating the past, it becomes clear why Rio de Janeiro was chosen as the venue for the main international economic cooperation forum, the G20. <br><br> As a city that played a leading role in major events, Rio, on several occasions, took on the role of a historical epicenter, influencing the course of global events over the centuries. Every corner tells a story, and each event contributed to the construction of the world we live in today."
     }
   ],
   "page2_600": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>N</span>esta linha do tempo você conhecerá os principais encontros e eventos, e a história de decisões cruciais que se desenrolaram em suas ruas. Juntos, embarcaremos em uma jornada que revela o Rio de Janeiro como um ponto de convergência onde a história local se entrelaça com os destinos globais.<br><br> O Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro em parceria com o Comitê do G20 convidam você a percorrer esta linha do tempo, que mostra como o Rio sempre foi a capital do Mundo."
-    }
-  ],
-  "lookBackOverflow_600": [
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>Q</span>"
-    },
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>R</span>"
-    },
-    {
-      "type": "text",
-      "value": "<span class=initial-cap>S</span>"
+      "value": "<span class=initial-cap>I</span>n this timeline, you will get to know the main meetings and events, and the history of crucial decisions that unfolded on its streets. Together, we will embark on a journey that reveals Rio de Janeiro as a convergence point where local history intertwines with global destinies. <br><br> The Data Office of the City of Rio de Janeiro in partnership with the G20 Committee invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
   "page1_else": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>A</span>o olharmos para o passado, fica evidente por que o Rio de Janeiro foi escolhido como sede do G20, o principal fórum de cooperação econômica internacional. Como palco de eventos de grande magnitude, a cidade desempenhou diversas vezes o papel de epicentro histórico, moldando eventos globais ao longo dos séculos. "
+      "value": "<span class=initial-cap>W</span>hen looking at the past, it becomes evident why Rio de Janeiro was chosen as the venue for the G20, the main international economic cooperation forum. As a stage for events of great magnitude, the city has played the role of a historical epicenter multiple times, shaping global events throughout the centuries."
     }
   ],
   "page2_else": [
     {
       "type": "text",
-      "value": "<span class=initial-cap>O</span>Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro  em parceria com o Comitê do G20 convidam você a percorrer esta linha do tempo, que mostra como o Rio sempre foi a capital do Mundo. "
+      "value": "<span class=initial-cap>T</span>he Data Office of the City of Rio de Janeiro, in partnership with the G20 Committee, invites you to explore this timeline, showing how Rio has always been the capital of the world."
     }
   ],
- 
 
 
 
@@ -120,8 +88,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "190611",
-      "text": "O Rio foi a cidade escolhida para sediar a III Conferência Pan-Americana, o mais importante encontro diplomático das Américas e o primeiro realizado na América do Sul. Entre os dias 21 de julho e 27 de agosto daquele ano, representantes de 19 países se reuniram no Palácio Monroe para debater o futuro do continente americano.",
-      "titulo":"Terceira Conferência Pan-americana",
+      "text": "Rio de Janeiro was chosen to host the III Pan-American Conference, the most significant diplomatic gathering in the Americas and the first to be held in South America. Between July 21 and August 27 of that year, representatives from 19 countries convened at the Monroe Palace to discuss the future of the American continent.",
       "kicker": "2011–2012"
     },
     {
@@ -130,7 +97,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "190621",
-      "text": "Foi a primeira vez na história, que um secretário de Estado dos EUA participou de um evento oficial no exterior. Inaugurado para ser sede da conferência, o então Palácio São Luiz teve o seu nome substituído em homenagem ao presidente norte-americano James Monroe, entusiasta da solidariedade regional. O prédio, construído originalmente para representar o Brasil na Exposição Universal de Saint Louis, ganharia o Prêmio Mundial de Arquitetura em 1904.",
+      "text": "It marked the first instance in history that a U.S. Secretary of State participated in an official event abroad. Originally named the São Luiz Palace and inaugurated as the conference venue, it was later renamed in honor of U.S. President James Monroe, a proponent of regional solidarity. The building, originally constructed to represent Brazil at the Saint Louis World's Fair, received the World Architecture Prize in 1904.",
       "kicker": "2011–2012"
     },
     {
@@ -147,8 +114,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "190811",
-      "titulo": "Exposição Nacional Comemorativa do 1.º Centenário da Abertura dos Portos do Brasil",
-      "text": "Primeira grande mostra realizada no país, a Exposição Nacional Comemorativa do 1.º Centenário da Abertura dos Portos do Brasil foi realizada no bairro da Urca, entre os dias 11 de agosto e 15 de novembro de 1908. O evento contou com mais de 30 edificações, figurando dentre elas pavilhões representativos dos estados brasileiros, além de um cinema, dois teatros, um jardim botânico, uma pista de patinação e o pavilhão de Portugal. A exposição exibiu aos visitantes inúmeras inovações do país nos campos das artes, ciência, comércio, indústria e agricultura. ",
+      "text": "The first major exhibition held in the country, the Commemorative National Exhibition of the 1st Centennial of the Opening of Brazil's Ports took place in the Urca neighborhood from August 11 to November 15, 1908. The event featured over 30 structures, including representative pavilions of Brazilian states, a cinema, two theaters, a botanical garden, a skating rink, and the Portugal Pavilion. The exhibition showcased numerous innovations in the fields of arts, science, commerce, industry, and agriculture to the visitors.",
       "kicker": "2011–2012"
     },
     {
@@ -157,7 +123,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "190821",
-      "text": "Durante o evento, inspirado pelo espírito de modernidade, o engenheiro Augusto Ferreira Ramos teve a ideia de construir um dos símbolos do país e da cidade do Rio: o bondinho do Pão de Açúcar.",
+      "text": "During the event, inspired by the spirit of modernity, engineer Augusto Ferreira Ramos conceived the idea of building one of the symbols of the country and the city of Rio: the Sugarloaf Cable Car.",
       "kicker": "2011–2012"
     },
     {
@@ -174,8 +140,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "192211",
-      "titulo": "Exposição Internacional do Centenário da Independência do Brasil",
-      "text": "Primeira grande exposição universal no pós-guerra, a Exposição Internacional Comemorativa do Centenário da Independência trouxe à então capital federal representantes de 14 países e de todos os estados da federação. Como uma verdadeira vitrine do progresso, os expositores exibiam aos visitantes o que havia de mais avançado nas mais variadas áreas do conhecimento — agricultura, indústria e ciências. ",
+      "text": "The first major universal exhibition in the post-war period, the Commemorative International Exhibition of the Centennial of Independence brought representatives from 14 countries and all states of the federation to the then federal capital. Serving as a true showcase of progress, exhibitors presented visitors with the latest advancements in various fields of knowledge, including agriculture, industry, and sciences.",
       "kicker": "2011–2012"
     },
     {
@@ -184,7 +149,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "192221",
-      "text": "Realizada entre 7 de setembro de 1922 e 24 de julho de 1923, a monumental exposição legou à cidade do Rio quatro edifícios históricos: o Pavilhão da Administração e Distrito Federal (hoje sede do Museu da Imagem e do Som), os pavilhões de Estatística (atual Centro Cultural do Ministério da Saúde), o Palácio das Grandes Indústrias (parte do hoje Museu Histórico Nacional) e o Palácio da França, uma réplica do Petit Trianon de Versailles, doado em 1923 à Academia Brasileira de Letras. Cartões-postais do Rio e do país, os hotéis Glória (1922) e Copacabana Palace (1923) foram inicialmente planejados para acomodar os visitantes da Exposição.",
+      "text": "Held between September 7, 1922, and July 24, 1923, the monumental exhibition left the city of Rio with four historic buildings: the Pavilion of Administration and the Federal District (now the headquarters of the Museum of Image and Sound), the Statistics Pavilions (currently the Cultural Center of the Ministry of Health), the Palace of Great Industries (part of today's National Historical Museum), and the Palace of France, a replica of the Petit Trianon of Versailles, donated in 1923 to the Brazilian Academy of Letters. Iconic postcards of Rio and the country, the Gloria Hotel (1922) and Copacabana Palace (1923) were initially planned to accommodate visitors to the Exhibition.",
       "kicker": "2011–2012"
     },
     {
@@ -201,8 +166,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "192811",
-      "titulo": "Feira Internacional de Amostras",
-      "text": "Realizada anualmente entre 1928 e 1940, a Feira Internacional de Amostras foi o mais importante fórum de negócios do Brasil. No espírito das grandes feiras e exposições das principais capitais mundiais, o Rio foi a cidade escolhida para receber empresários, sindicatos e representantes internacionais dos mais variados países.",
+      "text": "Held annually between 1928 and 1940, the International Sample Fair was Brazil's most important business forum. In the spirit of major fairs and exhibitions in the world's leading capitals, Rio was chosen to host entrepreneurs, unions, and international representatives from various countries.",
       "kicker": "2011–2012"
     },
     {
@@ -211,7 +175,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "192821",
-      "text": "Aberta ao grande público, a Feira combinava exposição de produtos, espaço para negócios e espetáculos artísticos e culturais. Interrompido com advento da Segunda Guerra Mundial, o evento marcou época. Estima-se que mais de 700 empresas e um milhão de pessoas tenham visitado o evento.",
+      "text": "Open to the general public, the fair combined product exhibitions, business spaces, and artistic and cultural performances. Interrupted with the advent of World War II, the event left a lasting impact. It is estimated that over 700 companies and one million people attended the fair.",
       "kicker": "2011–2012"
     },
     {
@@ -228,8 +192,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "194211",
-      "titulo": "III Reunião de Consulta de Chanceleres das Repúblicas Americanas",
-      "text": "Entre os dias 15 e 28 de janeiro de 1942, chanceleres de toda continente americano se reuniram na Conferência do Rio para deliberarem sobre qual seria a posição dos países durante a Segunda Guerra Mundial. Convocada pelos Estados Unidos logo após o ataque japonês a Pearl Harbor, a Terceira Reunião de Consultas de Chanceleres das Repúblicas Americanas produziu mais de 40 resoluções, entre elas a aprovação unânime pela recomendação do imediato rompimento de relações diplomáticas e comerciais com todos os países do Eixo. ",
+      "text": "Between January 15 and 28, 1942, chancellors from across the American continent gathered at the Rio Conference to deliberate on the position of the countries during World War II. Convened by the United States shortly after the Japanese attack on Pearl Harbor, the Third Meeting of Consultation of the American Republics' Chancellors produced over 40 resolutions, including the unanimous approval for the immediate severance of diplomatic and commercial relations with all Axis countries.",
       "kicker": "2011–2012"
     },
     {
@@ -238,7 +201,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "194221",
-      "text": "Importante ponto de inflexão na história diplomática brasileira, ao final da Conferência o Brasil rompia relações com Alemanha, Itália e Japão. Seis meses mais tarde, após sucessivos ataques de submarinos alemães e italianos a navios brasileiros, o país declarava guerra às potências do Eixo.",
+      "text": "A crucial turning point in Brazilian diplomatic history, at the end of the conference, Brazil severed relations with Germany, Italy, and Japan. Six months later, after successive attacks by German and Italian submarines on Brazilian ships, the country declared war on the Axis powers.",
       "kicker": "2011–2012"
     },
     {
@@ -255,8 +218,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "194711",
-      "titulo": "Conferência Interamericana para Manutenção da Paz e Segurança no Continente",
-      "text": "Com o fim da Segunda Guerra Mundial e o início da Guerra Fria, os Estados americanos reuniram-se no Rio entre os meses de agosto e setembro de 1947 para debaterem a criação de um sistema continental de segurança. Assinado no dia 02 de setembro daquele ano, o Pacto ou Tratado do Rio estabeleceu as normas de defesa coletiva que permanecem em funcionamento até hoje. ",
+      "text": "With the end of World War II and the onset of the Cold War, the American states gathered in Rio between August and September 1947 to discuss the creation of a continental security system. Signed on September 2 of that year, the Pact or Rio Treaty established the norms of collective defense that remain in effect to this day.",
       "kicker": "2011–2012"
     },
     {
@@ -265,7 +227,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "194721",
-      "text": "Oficialmente intitulado Tratado Interamericano de Assistência Recíproca, o TIAR prevê medidas de legítima defesa e ações conjuntas a serem tomadas por todos os países signatários no caso de um ataque a qualquer Estado parte da aliança.",
+      "text": "Officially titled the Inter-American Treaty of Reciprocal Assistance (TIAR), it outlines measures of legitimate defense and joint actions to be taken by all signatory countries in the event of an attack on any member state of the alliance.",
       "kicker": "2011–2012"
     },
     {
@@ -282,8 +244,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "195011",
-      "titulo": "Copa do Mundo",
-      "text": "Principal sede da Copa de 1950, a primeira após a Segunda Guerra, a cidade do Rio de Janeiro recebeu 8 jogos, dentre eles 4 da Seleção Brasileira, além da final do campeonato, que aconteceu no Estádio Municipal do Rio de Janeiro, o Maracanã.",
+      "text": "As the main host city for the 1950 World Cup, the first after World War II, Rio de Janeiro hosted 8 matches, including 4 featuring the Brazilian National Team, as well as the championship final held at the Municipal Stadium of Rio de Janeiro, the Maracanã.",
       "kicker": "2011–2012"
     },
     {
@@ -292,7 +253,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "195021",
-      "text": " Construído em tempo recorde para o sediar o evento, o “maior do mundo” tinha capacidade para 200 mil pessoas, o equivalente a 10% da população carioca em 1950. Dono dos maiores públicos da história do esporte, o estádio transformou-se na casa da seleção brasileira. Foi em seus gramados que Edson Arantes do Nascimento, o Rei Pelé, marcou o seu milésimo gol.",
+      "text": "  Built in record time to host the event, the 'largest in the world' had a capacity for 200 thousand people, equivalent to 10% of the population of Rio de Janeiro in 1950. Home to the largest crowds in the history of sports, the stadium became the home of the Brazilian national team. It was on its grounds that Edson Arantes do Nascimento, the King Pelé, scored his thousandth goal.",
       "kicker": "2011–2012"
     },
     {
@@ -309,8 +270,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "195511",
-      "titulo": "36º Congresso Eucarístico Internacional",
-      "text": "O Rio de Janeiro foi a capital mundial do catolicismo em 1955. Estima-se que mais de um milhão de fiéis de todos os cantos do planeta estiveram presentes no 36º Congresso Eucarístico Internacional, realizado no mês de julho daquele ano, no Aterro do Flamengo.",
+      "text": "Rio de Janeiro became the global capital of Catholicism in 1955. It is estimated that over a million believers from all corners of the globe attended the 36th International Eucharistic Congress, held in July of that year at Aterro do Flamengo. ",
       "kicker": "2011–2012"
     },
     {
@@ -319,7 +279,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "195521",
-      "text": " Disputado por países em todo o mundo, o encontro motivou a realização de obras que ficariam como legados para a cidade, tais como a ampliação da adutora do rio Guandu e o aterramento de parte do bairro do Flamengo.",
+      "text": "Contested by countries worldwide, the gathering inspired the implementation of projects that would leave a lasting legacy for the city, such as the expansion of the Guandu River aqueduct and the landfilling of part of the Flamengo neighborhood.",
       "kicker": "2011–2012"
     },
     {
@@ -336,8 +296,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "196711",
-      "titulo": "22ª Reunião Conjunta do Banco Mundial, Fundo Monetário Internacional e seus afiliados",
-      "text": "Realizada no Museu de Arte Moderna do Rio de Janeiro, a 22ª Reunião Conjunta do Banco Mundial e do Fundo Monetário Internacional trouxe à Cidade Maravilhosa mais de 3 mil integrantes dos 108 países membros. Em terras cariocas, o mais importante evento da economia mundial inovou ao criar os Direitos Especiais de Saque (do inglês, Special Drawing Rights), uma espécie de moeda internacional de reserva ainda hoje em operação. ",
+      "text": "Held at the Museum of Modern Art in Rio de Janeiro, the 22nd Joint Meeting of the World Bank and the International Monetary Fund brought more than 3,000 participants from 108 member countries to the Marvelous City. In Rio, the most important event in the world economy innovated by creating Special Drawing Rights, a kind of international reserve currency still in operation today.",
       "kicker": "2011–2012"
     },
     {
@@ -345,6 +304,7 @@
         "1967"
       ],
       "highlightBooks": [],
+      "text":"Interestingly, the very idea of creating the IMF has its origins in Rio de Janeiro. The final declaration of the III Meeting of Consultation of the American Republics, held 25 years earlier in the city, recommended the creation of an International Stabilization Fund, a measure realized in 1944.",
       "scrollToId": "196721",
       "kicker": "2011–2012"
     },
@@ -363,8 +323,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "199211",
-      "titulo": "II Conferência das Nações Unidas sobre o Meio Ambiente e o Desenvolvimento, a Eco-92",
-      "text": "Maior evento internacional da história realizado até então, a Conferência das Nações Unidas sobre o Meio Ambiente e o Desenvolvimento trouxe ao Rio de Janeiro 108 chefes de Estado e representantes de 178 nações. Reunidos no Riocentro, os países aprovaram acordos internacionais que até hoje norteiam a política ambiental internacional, as chamadas convenções-quadro da ONU: para o clima, para a conservação da biodiversidade, e de combate à desertificação. O evento consagrou a ideia de desenvolvimento sustentável e colocou o tema das mudanças climáticas definitivamente na pauta global.",
+      "text": "The largest international event in history up to that point, the United Nations Conference on Environment and Development brought 108 heads of state and representatives from 178 nations to Rio de Janeiro. Held at Riocentro, the countries approved international agreements that still guide international environmental policy today, the so-called UN framework conventions: for climate, for the conservation of biodiversity, and for combating desertification. The event solidified the concept of sustainable development and firmly placed the issue of climate change on the global agenda.",
       "kicker": "2011–2012"
     },
     {
@@ -390,8 +349,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "199911",
-      "titulo": "Cimeira América Latina e Caribe-União Europeia",
-      "text": "Entre os dias 28 e 29 de junho, o Rio sediou a primeira reunião de cúpula da América Latina, Caribe e União Europeia. Realizada no Museu de Arte Moderna, 15 chefes de Estado e representantes de 48 países instituíram uma Parceria Estratégica Birregional, em vigor até os dias atuais. ",
+      "text": "From June 28 to 29, Rio hosted the first summit meeting of Latin America, the Caribbean, and the European Union. Held at the Museum of Modern Art, 15 heads of state and representatives from 48 countries established a Bi-regional Strategic Partnership, in effect to this day.",
       "kicker": "2011–2012"
     },
     {
@@ -400,7 +358,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "199921",
-      "text": " Entre os 69 pontos presentes na declaração final, destacam-se temas tais como comércio e integração regional, democracia e direitos humanos, combate à pobreza e promoção social, mudanças climáticas e desenvolvimento sustentável.",
+      "text": " Among the 69 points in the final declaration, notable themes include trade and regional integration, democracy and human rights, combating poverty and social promotion, climate change, and sustainable development.",
       "kicker": "2011–2012"
     },
     {
@@ -418,8 +376,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "200711",
-      "titulo": "Jogos Pan-Americanos e Jogos Parapan-Americanos",
-      "text": "Ao todo, 42 países, 5.633 atletas e mais de 20 mil voluntários fizeram do XV Jogos Pan-Americanos, o maior da história até então. Duas semanas mais tarde, a cidade sediaria os Jogos Parapan-Americanos, no qual participariam cerca de 1.300 atletas de 26 países do continente. Um terceiro evento marcaria para sempre o ano dourado da Cidade Maravilhosa: após dois anos de eleições, o Cristo Redentor tornava-se uma das Sete Maravilhas do Mundo.",
+      "text": "In total, 42 countries, 5,633 athletes, and over 20,000 volunteers made the XV Pan American Games the largest in history up to that point. Two weeks later, the city would host the Parapan American Games, with around 1,300 athletes from 26 countries in the continent participating. A third event would forever mark the Golden Year of the Marvelous City: after two years of elections, Christ the Redeemer became one of the Seven Wonders of the World.",
       "kicker": "2011–2012"
     },
     {
@@ -445,8 +402,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201211",
-      "titulo": "Conferência das Nações Unidas sobre Desenvolvimento Sustentável (Rio +20)",
-      "text": "Após 20 anos da Rio-92, representantes de 188 países reuniram-se entre os dias 13 e 22 de junho no Rio de Janeiro para renovar o compromisso político com o desenvolvimento sustentável e a erradicação da pobreza. ",
+      "text": "Twenty years after Rio-92, representatives from 188 countries gathered in Rio de Janeiro from June 13 to 22 to renew political commitment to sustainable development and poverty eradication.",
       "kicker": "2011–2012"
     },
     {
@@ -455,7 +411,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201221",
-      "text": "Ao todo, 487 ministros e 105 chefes de Estado e governo estiveram presentes na Conferência, cuja declaração final fora adotada por consenso. A Rio +20 obteve êxito em propiciar a integração entre sociedade civil e o processo multilateral. Estima-se que mais de 60 mil pessoas tenham participado em discussões virtuais e presenciais no evento.",
+      "text": "In total, 487 ministers and 105 heads of state and government were present at the Conference, whose final declaration was adopted by consensus. Rio+20 succeeded in facilitating integration between civil society and the multilateral process. It is estimated that more than 60,000 people participated in virtual and in-person discussions at the event.",
       "kicker": "2011–2012"
     },
     {
@@ -473,8 +429,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201311",
-      "titulo": "Jornada Mundial da Juventude",
-      "text": "Entre os dias 23 e 28 de julho, o Rio voltou a ser a capital mundial da fé católica. Presidida pelo primeiro Papa latino-americano, a XXVIII Jornada Mundial da Juventude foi o primeiro encontro de Francisco com a juventude católica e também o primeiro evento internacional do novo pontífice. ",
+      "text": "From July 23 to 28, Rio once again became the global capital of the Catholic faith. Presided over by the first Latin American Pope, the XXVIII World Youth Day was Pope Francis's first encounter with Catholic youth and also the first international event for the new pontiff.",
       "kicker": "2011–2013"
     },
     {
@@ -483,7 +438,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201321",
-      "text": "A jornada, cujo fluxo turístico fora o maior da história do Brasil até então, trouxe à cidade milhões de fiéis de todas as partes o mundo. Nas areias de Copacabana, estima-se que 3,7 milhões de peregrinos assistiram presencialmente à missa de encerramento, tornando-se a maior missa. ",
+      "text": "The event, whose tourist influx was the largest in Brazil's history up to that point, brought millions of faithful from all over the world to the city. On the sands of Copacabana, an estimated 3.7 million pilgrims attended the closing Mass in person, making it the largest Mass.",
       "kicker": "2011–2013"
     },
     {
@@ -501,8 +456,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201411",
-      "titulo": "Copa do Mundo",
-      "text": "Uma das sedes da vigésima edição da Copa do Mundo, o Rio de Janeiro recebeu sete jogos do mais importante espetáculo futebolístico do planeta. Realizado entre os dias 12 de junho e 13 de julho de 2014, o evento voltava ao Brasil após seis décadas de espera. O Maracanã, mais uma vez, seria o palco da grande final. Em toda a história, apenas dois estádios sediaram duas finais de Copa do Mundo: o Estádio Azteca, na Cidade do México, e o Maraca, não por acaso conhecido como o Templo do Futebol.",
+      "text": "As one of the venues for the twentieth edition of the World Cup, Rio de Janeiro hosted seven matches of the most important football spectacle on the planet. Held between June 12 and July 13, 2014, the event returned to Brazil after six decades of anticipation. The Maracanã, once again, would be the stage for the grand final. Throughout history, only two stadiums have hosted two World Cup finals: the Azteca Stadium in Mexico City and the Maracanã, aptly known as the Temple of Football.",
       "kicker": "2011–2014"
     },
     {
@@ -528,8 +482,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201611",
-      "titulo": "Jogos Olímpicos e Paralímpicos",
-      "text": "O Museu do Amanhã foi a casa do Primeiro Fórum de Financiamento de Cidades Sustentáveis do C40, importante rede global composta por cerca de 100 prefeitos das principais cidades do mundo. Entre os dias 05 e 07 de abril de 2016, líderes globais em finanças urbanas se reuniram na cidade do Rio para promover o financiamento da ação climática nas cidades. O evento, iniciativa pioneira a conectar cidades e o setor financeiro, reuniu mais de 130 representantes do governo, organizações não governamentais e instituições financeiras.",
+      "text": "The Museum of Tomorrow was the venue for the First C40 Sustainable Cities Finance Forum, an important global network composed of around 100 mayors from major cities around the world. From April 5 to 7, 2016, global leaders in urban finance gathered in Rio de Janeiro to promote the financing of climate action in cities. The event, a pioneering initiative to connect cities and the financial sector, brought together more than 130 representatives from government, non-governmental organizations, and financial institutions.",
       "kicker": "2011–2016"
     },
     {
@@ -545,33 +498,6 @@
         "2016"
       ],
       "highlightBooks": [],
-      "scrollToId": "20171",
-      "kicker": "2011–2016"
-    },
-
-    {
-      "highlightYears": [
-        "2017"
-      ],
-      "highlightBooks": [],
-      "scrollToId": "201711",
-      "titulo": "Primeiro Fórum de Financiamento de Cidades Sustentáveis do C40 (Grupo de Liderança Climática de Cidades)",
-      "text": "O Museu do Amanhã foi a casa do Primeiro Fórum de Financiamento de Cidades Sustentáveis do C40, importante rede global composta por cerca de 100 prefeitos das principais cidades do mundo. Entre os dias 05 e 07 de abril de 2016, líderes globais em finanças urbanas se reuniram na cidade do Rio para promover o financiamento da ação climática nas cidades. O evento, iniciativa pioneira a conectar cidades e o setor financeiro, reuniu mais de 130 representantes do governo, organizações não governamentais e instituições financeiras.",
-      "kicker": "2011–2016"
-    },
-    {
-      "highlightYears": [
-        "2017"
-      ],
-      "highlightBooks": [],
-      "scrollToId": "201721",
-      "kicker": "2011–2016"
-    },
-    {
-      "highlightYears": [
-        "2017"
-      ],
-      "highlightBooks": [],
       "scrollToId": "20191",
       "kicker": "2011–2016"
     },
@@ -582,8 +508,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "201911",
-      "titulo": "III Reunião de Ministros das Relações Exteriores do BRICS",
-      "text": "O Rio recebeu os chanceleres de Brasil, Rússia, Índia, China e África do Sul para a III Reunião de Ministros das Relações Exteriores do BRICS. O encontro teve lugar no histórico Palácio do Itamaraty, sede do Ministério das Relações Exteriores do Brasil de 1899 até sua mudança para Brasília, em 1970. Na ocasião, os ministros debateram importantes temas da agenda internacional, tais como a reforma da governança global e a cooperação multilateral entre os países.",
+      "text": "Rio hosted the foreign ministers of Brazil, Russia, India, China, and South Africa for the III Meeting of BRICS Foreign Ministers. The meeting took place at the historic Itamaraty Palace, the headquarters of the Ministry of Foreign Affairs of Brazil from 1899 until its relocation to Brasília in 1970. During the meeting, the ministers discussed important topics on the international agenda, such as global governance reform and multilateral cooperation among the countries.",
       "kicker": "2011–2019"
     },
     {
@@ -609,8 +534,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "202311",
-      "titulo": "Web Summit",
-      "text": "Várias iniciativas consolidam a cidade do Rio como referência internacional em inovação e tecnologia, tais como a criação do Porto Maravalley - hub tecnológico localizado na região portuária que reúne startups, investidores, grandes empresas e universidade - e a realização do Web Summit, umas das maiores e mais importantes feiras tecnológicas do mundo.",
+      "text": "Several initiatives are solidifying the city of Rio as an international reference in innovation and technology, such as the creation of Porto Maravalley - a technological hub located in the port region that brings together startups, investors, large companies, and universities - and the hosting of Web Summit, one of the largest and most important technology fairs in the world..",
       "kicker": "2011–2023"
     },
     {
@@ -619,7 +543,7 @@
       ],
       "highlightBooks": [],
       "scrollToId": "202321",
-      "text": "Realizada no Riocentro entre os dias 01 e 04 de maio de 2023, o evento recebeu mais de 21 mil pessoas e empresas dos mais variados ramos da indústria tecnológica. Na pauta, temas de vanguarda, como inteligência artificial, fintechs e criptoativos. Cidade historicamente vocacionada para a inovação, entre os dias 15 e 18 de abril de 2024, o Rio voltará a ser sede de uma edição do evento.",
+      "text": "Held at Riocentro from May 1 to 4, 2023, the event welcomed more than 21,000 people and companies from various sectors of the technology industry. On the agenda were cutting-edge topics such as artificial intelligence, fintechs, and cryptocurrencies. Historically predisposed to innovation, from April 15 to 18, 2024, Rio will once again host an edition of the event.",
       "kicker": "2011–2013"
     },
     {
@@ -636,9 +560,16 @@
         "2024"
       ],
       "highlightBooks": [],
-      "scrollToId": "20241",
-      "titulo": "G20",
-      "text": "O Rio será a capital do mundo em 2024. Escolhida como sede para a cúpula do G20, a cidade receberá o grupo composto pelas 19 maiores economias do mundo e pela União Europeia. Responsável por 85% do PIB e mais de 75% do comércio global, os principais chefes de Estado do planeta debaterão em terras cariocas o futuro da governança global e do desenvolvimento sustentável. Estima-se que mais de 100 outros eventos sejam organizados ao longo do ano por grupos de engajamento, startups, think tanks e universidades.",
+      "scrollToId": "202411",
+      "text": "Rio will be the capital of the world in 2024. Chosen as the venue for the G20 summit, the city will host the group composed of the 19 largest economies in the world and the European Union. Responsible for 85% of the GDP and over 75% of global trade, the world's top leaders will discuss the future of global governance and sustainable development in Rio. It is estimated that more than 100 other events will be organized throughout the year by engagement groups, startups, think tanks, and universities.",
+      "kicker": "2011–2013"
+    },
+    {
+      "highlightYears": [
+        "2024"
+      ],
+      "highlightBooks": [],
+      "scrollToId": "202421",
       "kicker": "2011–2013"
     }
   ]
