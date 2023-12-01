@@ -25,7 +25,7 @@
         <!-- style="height: {Math.floor(wallH/bookRows)}px; width: {Math.floor(wallH/bookRows*0.66)}px" -->
         <div class='img-wrapper' >
             <div class="overlay"></div>
-            {#if imgsLoaded && book.id != "20241" && book.id != "194721"}
+            {#if imgsLoaded && book.id != "20241"}
                 <img src="https://raw.githubusercontent.com/prefeitura-rio/G20Dataviz/master/static/assets/images/covers2/{book.id}.jpg" alt="{book.title}" />
             {/if}
         </div>

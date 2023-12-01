@@ -11,6 +11,7 @@
 	<h6>Caio Jacintho</h6>
 	<h6>Judite Cypreste</h6>
 	<h6>Vanessa Leme</h6>
+	<h6>Elizeu Santiago de Souza</h6>
 	<h6>Lucas Tavares</h6>
   
 	<br>
