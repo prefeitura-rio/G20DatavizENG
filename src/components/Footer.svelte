@@ -22,6 +22,7 @@
 	<h6>Elizeu Santiago de Souza</h6>
 	<h6>Pedro Marreca</h6>
 	<h6>Rafael Martins de Araujo</h6>
+	<h6>Simone Pennafirme</h6>
 
 	<br>
 	<br>
