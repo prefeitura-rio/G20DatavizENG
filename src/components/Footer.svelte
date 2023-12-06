@@ -12,6 +12,7 @@
 	<h6>Judite Cypreste</h6>
 	<h6>Vanessa Leme</h6>
 	<h6>Elizeu Santiago de Souza</h6>
+	<h6>Simone Pennafirme</h6>
 	<h6>Lucas Tavares</h6>
   
 	<br>
@@ -19,10 +20,8 @@
 	<h3 id="agradecimentos">Agradecimentos</h3>
 	<h6>Lucas Padilha</h6>
 	<h6>João Carabetta</h6>
-	<h6>Elizeu Santiago de Souza</h6>
 	<h6>Pedro Marreca</h6>
 	<h6>Rafael Martins de Araujo</h6>
-	<h6>Simone Pennafirme</h6>
 
 	<br>
 	<br>
