@@ -471,12 +471,12 @@
 	@media only screen and (max-width: 500px) {
 		.book-cover-back-indent p{
 			font-size: 18px !important;
-			text-align: justify;
+			/* text-align: justify; */
 			margin: 2rem 0.5rem 1rem 0.5rem;
 		}
 		.book-page p{
 		font-size: 18px !important;
-		text-align: justify;
+		/* text-align: justify; */
 		line-height: 1.65;
 		margin: 2rem 0 1rem 0;
 		font-family: var(--serif);

@@ -22,7 +22,7 @@
 
     function setSection(id) { activeSection.set(id); }
 
-    $: isVisible = scrollY == undefined || scrollY < 5 ? true : false; 
+    $: isVisible = scrollY == undefined || scrollY <= 1000  ? true : false; 
 </script>
 
 <section id="intro"

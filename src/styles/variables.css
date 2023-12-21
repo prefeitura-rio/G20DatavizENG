@@ -3,8 +3,8 @@
  * Generated on Tue, 31 May 2022 13:42:06 GMT
  */
 
-:root {
-  --category-blue: #4477AA;
+ :root {
+  --category-blue: black;
   --category-red: #EE6677;
   --category-green: #228833;
   --category-yellow: #CCBB44;
@@ -25,14 +25,14 @@
   --color-gray-900: #262626;
   --color-gray-1000: #191919;
   --color-purple: #a239ca;
-  --color-blue: #4717f6;
+  --color-blue: black;
   --color-green: #34a29e;
   --color-red: #ff533d;
   --color-yellow: #e5e338;
   --romance-pink: #f28393;
   --romance-pink-light: black;
   --romance-bg-pink: #FFFFFF;
-  --romance-blue: #4C7DFE;
+  --romance-blue: black;
   --romance-blue-light: #8eacf9;
   --romance-bg-blue: #d3d3d3;
   --romance-yellow: #F7C42D;
