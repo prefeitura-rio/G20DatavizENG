@@ -11,7 +11,6 @@
 	export let section;
 
 	let promptVisible = 1;
-	let promptPos = "-1rem";
 	let scrollY;
 	let scrollDir;
 	let lastY;
@@ -48,11 +47,11 @@
 		{/each}
 	</div>
 	<input on:change={handleChange} type="range" aria-label={label} {min} {max} {step} bind:value />
-		<div class="prompt" style="opacity: {promptVisible};"
-			in:fly={{ y: 100, duration: 1000, delay: 250}}
-			out:fade={{ duration: 200 }}>
-			<p>Me arraste!</p>
-		</div>
+	<div class="prompt" style="opacity: {promptVisible};"
+	in:fly={{ y: 10, duration: 1000, delay: 250}}
+	out:fade={{ duration: 200 }}>
+	<p>Drag me!</p>
+</div>
 
 </div>
 
@@ -85,13 +84,8 @@
 		cursor: pointer;
 		padding: 0;
 		margin: 0;
-		background: transparent;
 		position: relative;
 		outline: none;
-	}
-
-	input[type="range"]:focus {
-		box-shadow: 0 0 4px 0 var(--color-gray-300);
 	}
 
 	input[type="range"]:focus::-webkit-slider-thumb,
@@ -103,30 +97,18 @@
 	input[type="range"]::-webkit-slider-runnable-track {
 		width: 100%;
 		height: calc(var(--thumb-width) / 4);
-		background: rgba(255,255,255,0.75);
+		
 		border-radius: 4px;
 	}
-	input[type=range] {
-    	-webkit-appearance: none;
-	}
+
 	input[type="range"]::-webkit-slider-thumb {
 		height: var(--thumb-width);
 		width: var(--thumb-width);
 		border-radius: 50%;
 		position: relative;
-		background: var(--color-gray-800);
+		background: black;
 		appearance: none;
 		margin-top: calc(var(--thumb-width) / -3);
-	}
-	input[type="range"]:focus::-webkit-slider-runnable-track {
-		background: rgba(255,255,255,0.75);
-	}
-
-	input[type="range"]::-moz-range-track {
-		width: 100%;
-		height: calc(var(--thumb-width) / 4);
-		background: rgba(255,255,255,0.75);
-		border-radius: 4px;
 	}
 
 	input[type="range"]::-moz-range-thumb {

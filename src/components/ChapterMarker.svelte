@@ -19,25 +19,7 @@
 		loading = false;
 	})
 
-    function handleListToggle(initState) {
-        readingListVisible.set(!$readingListVisible);
-        select(this).style("animation", "none").classed("highlight", false)
-    }
-
-    function handleChapterClick(e) {
-        const id = (select(this).node().id).split("-")[1];
-        e.preventDefault()
-		const anchor = document.getElementById(id)
-		window.scrollTo({
-			top: anchor.offsetTop + 20,
-			behavior: 'instant'
-		})
-    }
-    
-    function resetTitles(id) {
-        const title = id == "race" ? "diversity" : id;
-        return title
-    }
+   
 
     function hideSlide(activeSection) { sliderVisible.set(false); }
 
@@ -74,13 +56,13 @@
         </div>
          
     </div>
-    <!-- <div class="slider-wrapper">
+    <div class="slider-wrapper">
         {#if $sliderVisible}
             <div id="range-slider" 
                 class:isHidden={$readingListVisible}
                 in:fade={{ delay: 250, duration: 200 }}
                 out:fade={{ delay: 0, duration: 200 }}>
-                <p><Icon name="move-left" /></p>
+                <!-- <p><Icon name="move-left" /></p> -->
                 <div class="range-wrapper">
                     {#if $activeSection == "raunchiness"}
                         <Range value={rangeStart} min={0} max={100} step={1} showTicks={false} section={"raunchiness"} bind:sliderValRaunch /> 
@@ -90,10 +72,10 @@
                         <Range value={rangeStart} min={0} max={100} step={1} showTicks={false} section={"race"} bind:sliderValRace />
                     {/if} 
                 </div>
-                <p><Icon name="move-right" /></p>
+                <!-- <p><Icon name="move-right" /></p> -->
             </div>
         {/if}
-    </div> -->
+    </div>
 </nav>
 
 <style>
@@ -153,7 +135,7 @@
     }
     .slider-wrapper {
         position: fixed;
-        top: 4.5rem;
+        top: 93.7%;
         width: 100%;
         height: 3rem;
     }

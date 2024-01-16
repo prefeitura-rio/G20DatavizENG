@@ -81,7 +81,7 @@
 
 <style>
 	div {
-		z-index: 999;
+		z-index: 1000;
 		position: relative;
 		margin: 0 1rem;
 		pointer-events: none;

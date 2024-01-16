@@ -91,16 +91,11 @@ const deviceType = () => {
 					sliderStoreRaunch.set(0);
 					xShiftRaunch.set(0);
 				}
-			} else if (
-				copy[value] !== 0 &&
-				select(`#${section} #book_${copy[value].scrollToId}`).node() !== null
-			) {
+			} else if ( copy[value] !== 0 && select(`#${section} #book_${copy[value].scrollToId}`).node() !== null) {
 				console.log("dispositivo ", deviceType());
 
 				if (deviceType() == "tablet-portrait") {
-					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
-						.node()
-						.getBoundingClientRect().x;
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`).node().getBoundingClientRect().x;
 					if ($activeSection == "raunchiness") {
 						const padding = 330;
 						const val = $xShiftRaunch + sel - margins - padding;
@@ -108,9 +103,7 @@ const deviceType = () => {
 						xShiftRaunch.set(val);
 					}
 				} else if (deviceType() == "tablet-landscape") {
-					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
-						.node()
-						.getBoundingClientRect().x;
+					const sel = select(`#${section} #book_${copy[value].scrollToId}`).node().getBoundingClientRect().x;
 					if ($activeSection == "raunchiness") {
 						const padding = 330;
 						const val = $xShiftRaunch + sel - margins - padding;
@@ -118,7 +111,6 @@ const deviceType = () => {
 						xShiftRaunch.set(val);
 					}
 				} 
-
 				if (deviceType() == "mobile-portrait") {
 					const sel = select(`#${section} #book_${copy[value].scrollToId}`)
 						.node()
@@ -217,18 +209,13 @@ const deviceType = () => {
 	}
 
 	function shiftSlider() {
-		if (
-			totalShelfWidth &&
-			$maxWidthRaunch !== undefined &&
-			$maxWidthIllo !== undefined &&
-			$maxWidthRace !== undefined
-		) {
-			if ($activeSection == "raunchiness") {
-				const val = ($sliderStoreRaunch * $maxWidthRaunch) / 100;
-				xShiftRaunch.set(val);
-			}
-		}
+	
+	if ($activeSection == "raunchiness") {
+		const val = ($sliderStoreRaunch * $maxWidthRaunch) / 100;
+		xShiftRaunch.set(val);
 	}
+}
+
 
 	function getBookRows(wallH) {
 		// if (wallH !== undefined) {

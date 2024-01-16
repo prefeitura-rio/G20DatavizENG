@@ -2,6 +2,7 @@
     import {groups} from "d3-array";
     import { fade, fly } from 'svelte/transition';
     import { stepData } from "$stores/misc.js";
+    import { activeSection, sliderVisible } from "$stores/misc.js";
 
     export let data;
     export let color;
@@ -40,14 +41,19 @@
     "2023", "2024" ].includes(year));
     $: numItems = filteredGroupedData.length;
     $: styleVar = `--num-items: ${numItems};`;
+
+    function hideSlide(activeSection) { sliderVisible.set(false); }
+
+    $: $activeSection, hideSlide($activeSection)
+
 </script>
 
 <svelte:window bind:innerWidth={w} />
 
+  {#if !$sliderVisible}
     {#if pos == "overlay"}
-        <p class="label left" style="color: {data[0]}">1906</p>
+    <p class="label left" style="color: {$stepData[1]?"black":"white"}">1906</p>
     {/if}
- 
     <div class="chart-wrapper chart-wrapper-{pos}" bind:clientWidth={barChartW} style={styleVar}>
         {#if groupedData !== undefined}
         {#each filteredGroupedData as year, i}
@@ -64,26 +70,26 @@
                             {/if}
                         </p>
                     {/if}
-                    <span class="horizontal-line"></span>
+                    <span class="horizontal-line" style="background-color: {$stepData[1] ? '#a9a9a9' : 'white'};"></span>
                 </div>
             {/each}
         {/if}
     </div>
     
     {#if pos == "overlay"}
-        <p class="label right" style="color: {data[0]}">2024</p>
+         <p class="label right" style="color: {$stepData[1]?"black":"white"}">2024</p>
     {/if}
+{/if}
 
 <style>
-    .horizontal-line {
-    position: absolute;
-    height: 2px; /* or the thickness you desire */
-    width: 100%; /* this ensures it spans the entire width of the ball */
-    background-color: #a9a9a9; /* or any color you prefer */
-    top: 50%; /* centers the line vertically */
-    left: 0;
-    transform: translateY(-50%); /* ensures perfect centering */
-}
+   .horizontal-line {
+        position: absolute;
+        height: 2px; /* ou a espessura que você desejar */
+        width: 100%; /* isso garante que abranja toda a largura do elemento */
+        top: 50%; /* centraliza a linha verticalmente */
+        left: 0;
+        transform: translateY(-50%); /* garante o perfeito centralização */
+    }
 
     .chart-wrapper {
         display: flex;
